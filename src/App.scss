@@ -45,7 +45,8 @@
   }
 }
 
-.progress {
+.progress,
+.totalprogress {
   bottom: 0;
   left: auto;
   position: absolute;
@@ -58,7 +59,16 @@
     left: 0;
     width: 0;
     background-color: rgb(141, 211, 255);
-    // transition: 1s;
+    transition: 1s;
     transition-timing-function: linear;
+  }
+}
+
+.totalprogress {
+  top: 0;
+  height: 5vh;
+
+  .bar {
+    background-color: rgb(191, 230, 255);
   }
 }
