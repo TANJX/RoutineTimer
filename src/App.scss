@@ -5,12 +5,60 @@
   overflow: hidden;
   margin: 0;
   background-color: #fcfcfc;
+  color: #222;
+  user-select: none;
+  cursor: default;
 }
 
-.title {
-  font-size: 15vw;
+.main {
+  position: absolute;
+  width: 100vw;
+  margin-top: calc(50vh - 20%);
+
+  .title {
+    font-size: 10vw;
+  }
+
+  .time {
+    font-size: 25vw;
+    letter-spacing: -1.5vw;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+
+    .colon {
+      position: absolute;
+      right: 50vw;
+      top: -2.5vw;
+    }
+
+    .minute {
+      position: absolute;
+      text-align: right;
+      right: 57vw;
+    }
+
+    .second {
+      position: absolute;
+      text-align: left;
+      left: 52vw;
+    }
+  }
 }
 
-.time {
-  font-size: 25vw;
+.progress {
+  bottom: 0;
+  left: auto;
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  overflow: hidden;
+
+  .bar {
+    height: 100%;
+    left: 0;
+    width: 0;
+    background-color: rgb(141, 211, 255);
+    // transition: 1s;
+    transition-timing-function: linear;
+  }
 }
