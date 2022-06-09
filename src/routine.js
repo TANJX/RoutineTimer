@@ -2,7 +2,7 @@
 const routine = [
   {
     title: "准备",
-    duration: 15,
+    duration: 5,
   },
   {
     title: "1分钟 第1个",

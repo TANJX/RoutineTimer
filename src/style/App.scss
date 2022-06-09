@@ -8,6 +8,12 @@
   color: #222;
   user-select: none;
   cursor: default;
+
+  &:hover {
+    .controls, .totalTime {
+      opacity: 1;
+    }
+  }
 }
 
 .main {
@@ -67,8 +73,39 @@
 .totalprogress {
   top: 0;
   height: 5vh;
+  position: relative;
+
+  .totalTime {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    left: auto;
+    right: auto;
+    top: 1vh;
+    font-size: 2vw;
+    opacity: 0;
+  }
 
   .bar {
     background-color: rgb(191, 230, 255);
+  }
+}
+
+.controls {
+  opacity: 0;
+  position: absolute;
+  top: 10vh;
+  width: 100vw;
+  left: auto;
+  right: auto;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
