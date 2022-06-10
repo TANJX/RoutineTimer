@@ -126,8 +126,8 @@ const Timer = (props) => {
         <p className='totalTime'>{`${durationString} / ${totalDurationString}`}</p>
       </div>
       <div className='controls'>
-        <img className='pause' onClick={onReset} src={RestartIcon}></img>
-        <img className='pause' onClick={handlePause} src={paused ? PlayIcon : PauseIcon}></img>
+        <img onClick={onReset} src={RestartIcon} alt='reset'></img>
+        <img onClick={handlePause} src={paused ? PlayIcon : PauseIcon} alt='pause'></img>
       </div>
       <div className='main'>
         <p className='title'>{title}</p>
