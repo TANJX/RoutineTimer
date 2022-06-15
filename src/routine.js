@@ -4,45 +4,22 @@ const routine = [
     title: "准备",
     duration: 15,
   },
+  // 2 min
   {
-    title: "1分钟 第1个",
-    duration: 60,
+    title: "2分钟 第1个",
+    duration: 120,
   },
   {
     title: "休息",
-    duration: 15,
+    duration: 30,
   },
   {
-    title: "1分钟 第2个",
-    duration: 60,
-  },
-  {
-    title: "休息",
-    duration: 15,
-  },
-  {
-    title: "1分钟 第3个",
-    duration: 60,
+    title: "2分钟 第2个",
+    duration: 120,
   },
   {
     title: "休息",
-    duration: 15,
-  },
-  {
-    title: "1分钟 第4个",
-    duration: 60,
-  },
-  {
-    title: "休息",
-    duration: 15,
-  },
-  {
-    title: "1分钟 第5个",
-    duration: 60,
-  },
-  {
-    title: "休息",
-    duration: 15,
+    duration: 30,
   },
   // 5 min
   {
@@ -69,26 +46,18 @@ const routine = [
     title: "休息",
     duration: 30,
   },
+  // 15 min
   {
-    title: "5分钟 第4个",
-    duration: 300,
-  },
-  {
-    title: "休息",
-    duration: 30,
-  },
-  // 10 min
-  {
-    title: "10分钟 第1个",
-    duration: 600,
+    title: "15分钟 第1个",
+    duration: 900,
   },
   {
     title: "休息",
     duration: 60,
   },
   {
-    title: "10分钟 第2个",
-    duration: 600,
+    title: "15分钟 第2个",
+    duration: 900,
   },
   {
     title: "休息",
@@ -96,8 +65,8 @@ const routine = [
   },
   // 20 min
   {
-    title: "20分钟",
-    duration: 1200,
+    title: "15分钟 第3个",
+    duration: 900,
   },
 ]
 

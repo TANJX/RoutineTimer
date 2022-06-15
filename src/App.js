@@ -50,6 +50,7 @@ function App() {
     <div className="App">
       <Timer
         title={ROUTINE[routineState].title}
+        nextTitle={routineState+1<ROUTINE.length?ROUTINE[routineState+1].title:''}
         duration={ROUTINE[routineState].duration}
         totalDuration={totalTime}
         finishedTime={finishedTime}

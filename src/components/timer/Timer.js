@@ -55,6 +55,7 @@ const getReturnValues = (countDown) => {
 const Timer = (props) => {
   const {
     title,
+    nextTitle,
     endTime,
     duration,
     finishedTime,
@@ -108,6 +109,8 @@ const Timer = (props) => {
   const durationString = `${Math.floor(totalFinishedTime / 60)}分${totalFinishedTime % 60}秒`;
   const totalDurationString = `${Math.floor(totalDuration / 60)}分${totalDuration % 60}秒`;
 
+  const nextTitleString = title === '休息' ? `准备: ${nextTitle}` : ''
+
   const handlePause = () => {
     if (paused) {
       setPaused(false);
@@ -130,6 +133,7 @@ const Timer = (props) => {
         <img onClick={handlePause} src={paused ? PlayIcon : PauseIcon} alt='pause'></img>
       </div>
       <div className='main'>
+        <p className='subtitle'>{nextTitleString}</p>
         <p className='title'>{title}</p>
         <p className='time'>
           <span className='minute'>{minutes}</span>
