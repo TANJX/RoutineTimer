@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import dayjs from 'dayjs';
 
-import ROUTINE from './routine';
+import ROUTINE from './routine_v3';
 import useAudio from './components/audio/Audio';
 import Timer from './components/timer/Timer';
 import './style/App.scss';

@@ -1,4 +1,4 @@
-
+// DAY 1 - 14
 const routine = [
   {
     title: "准备",

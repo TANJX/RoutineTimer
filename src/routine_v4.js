@@ -1,4 +1,4 @@
-
+// DAY 42 - 
 const routine = [
   {
     title: "准备",
@@ -46,27 +46,26 @@ const routine = [
     title: "休息",
     duration: 30,
   },
-  // 15 min
+  // 12 min
   {
-    title: "15分钟 第1个",
-    duration: 900,
+    title: "12分钟 第1个",
+    duration: 720,
   },
   {
     title: "休息",
     duration: 60,
   },
   {
-    title: "15分钟 第2个",
-    duration: 900,
+    title: "12分钟 第2个",
+    duration: 720,
   },
   {
     title: "休息",
     duration: 60,
   },
-  // 20 min
   {
-    title: "15分钟 第3个",
-    duration: 900,
+    title: "12分钟 第3个",
+    duration: 720,
   },
 ]
 

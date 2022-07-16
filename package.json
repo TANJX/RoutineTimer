@@ -18,7 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "serve": "serve build"
+    "serve": "serve build",
+    "deploy": "node scripts/deploy.js"
   },
   "eslintConfig": {
     "extends": [
